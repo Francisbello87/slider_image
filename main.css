@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  height: 100vh;
+}
+.slider-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+.left-slide {
+  height: 100%;
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
+}
+.left-slide > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.left-slide h1 {
+  font-size: 40px;
+  margin-top: -30px;
+}
+.right-slide {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 40%;
+  width: 60%;
+  transition: transform 0.5s ease-in-out;
+}
+.right-slide > div {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  object-fit: fill;
+}
+.ferrari {
+  background: url(images/ferrari.jpg);
+}
+.bugatti {
+  background: url(images/Bugatti.jpg);
+}
+.rolls_royce {
+  background: url(images/Rolls\ Royce.jpg);
+}
+.mercedes {
+  background: url(images/Mercedes.jpg);
+}
+.pagani {
+  background: url(images/pagani.jpg);
+}
+.lambo {
+  background: url(images/Lambo.jpg);
+}
+.bentley {
+  background: url(images/Bentley.jpg);
+}
+button {
+  background-color: #fff;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px;
+}
+button:hover {
+  color: #222;
+}
+button:focus {
+  outline: none;
+}
+.slider-wrapper .action-buttons button {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  z-index: 100;
+}
+.slider-wrapper .action-buttons .down-button {
+  transform: translateX(-100%);
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.slider-wrapper .action-buttons .up-button {
+  transform: translateY(-100%);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+@media (max-width: 650px) {
+  body {
+    font-family: "Nunito", sans-serif;
+    height: 100vh;
+  }
+  .slider-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+  }
+  .left-slide {
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s ease-in-out;
+  }
+  .left-slide > div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .left-slide h1 {
+    font-size: 24px;
+    margin-top: -30px;
+    transform: rotateY(45deg);
+  }
+  .ferrari {
+    background: url(images/ferrari_mobile2.jpg);
+  }
+  .bugatti {
+    background: url(images/bugatti_mobile2.jpg);
+  }
+  .rolls_royce {
+    background: url(images/rolls_royce_mobile2.jpg);
+  }
+  .mercedes {
+    background: url(images/mercedes_mobile2.jpg);
+  }
+  .pagani {
+    background: url(images/pagani_mobile2.jpg);
+  }
+  .lambo {
+    background: url(images/lambo_mobile2.jpg);
+  }
+  .bentley {
+    background: url(images/bentley_mobile2.jpg);
+  }
+  .right-slide {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 65%;
+    transition: transform 0.5s ease-in-out;
+  }
+  .right-slide > div {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: fill;
+  }
+
+  button {
+    background-color: #fff;
+    border: none;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px;
+  }
+  button:hover {
+    color: #222;
+  }
+  button:focus {
+    outline: none;
+  }
+  .slider-wrapper .action-buttons button {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    z-index: 100;
+  }
+  .slider-wrapper .action-buttons .down-button {
+    transform: translateX(-100%);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  .slider-wrapper .action-buttons .up-button {
+    transform: translateY(-100%);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
