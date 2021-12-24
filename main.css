@@ -37,6 +37,27 @@ body {
   font-size: 40px;
   margin-top: -30px;
 }
+.left_lambo {
+  background-color: #4c2d12;
+}
+.left_pagani {
+  background-color: #89b3db;
+}
+.left_bentley {
+  background-color: #52473f;
+}
+.left_rolls_royce {
+  background-color: #0e253c;
+}
+.left_bugatti {
+  background-color: #37728c;
+}
+.left_mercedes {
+  background-color: #2f3736;
+}
+.left_ferrari {
+  background-color: #8c3337;
+}
 .right-slide {
   height: 100%;
   position: absolute;
@@ -54,25 +75,25 @@ body {
   object-fit: fill;
 }
 .ferrari {
-  background: url(images/ferrari.jpg);
+  background-image: url("images/ferrari.jpg");
 }
 .bugatti {
-  background: url(images/Bugatti.jpg);
+  background: url("images/Bugatti.jpg");
 }
 .rolls_royce {
-  background: url(images/Rolls\ Royce.jpg);
+  background: url("images/Rolls\ Royce.jpg");
 }
 .mercedes {
-  background: url(images/Mercedes.jpg);
+  background: url("images/Mercedes.jpg");
 }
 .pagani {
-  background: url(images/pagani.jpg);
+  background: url("images/pagani.jpg");
 }
 .lambo {
-  background: url(images/Lambo.jpg);
+  background: url("images/Lambo.jpg");
 }
 .bentley {
-  background: url(images/Bentley.jpg);
+  background: url("images/Bentley.jpg");
 }
 button {
   background-color: #fff;
@@ -137,26 +158,47 @@ button:focus {
     margin-top: -30px;
     transform: rotate(270deg);
   }
+  .left_lambo {
+    background-color: #927f66;
+  }
+  .left_pagani {
+    background-color: #636163;
+  }
+  .left_bentley {
+    background-color: #393b3d;
+  }
+  .left_rolls_royce {
+    background-color: #c5bdba;
+  }
+  .left_bugatti {
+    background-color: #9d1c1c;
+  }
+  .left_mercedes {
+    background-color: #2f3736;
+  }
+  .left_ferrari {
+    background-color: #202b3d;
+  }
   .ferrari {
-    background: url(images/ferrari_mobile2.jpg);
+    background: url("images/ferrari_mobile2.jpg");
   }
   .bugatti {
-    background: url(images/bugatti_mobile2.jpg);
+    background: url("images/bugatti_mobile2.jpg");
   }
   .rolls_royce {
-    background: url(images/rolls_royce_mobile2.jpg);
+    background: url("images/rolls_royce_mobile2.jpg");
   }
   .mercedes {
-    background: url(images/mercedes_mobile2.jpg);
+    background: url("images/mercedes_mobile2.jpg");
   }
   .pagani {
-    background: url(images/pagani_mobile2.jpg);
+    background: url("images/pagani_mobile2.jpg");
   }
   .lambo {
-    background: url(images/lambo_mobile2.jpg);
+    background: url("images/lambo_mobile2.jpg");
   }
   .bentley {
-    background: url(images/bentley_mobile2.jpg);
+    background: url("images/bentley_mobile2.jpg");
   }
   .right-slide {
     height: 100%;
